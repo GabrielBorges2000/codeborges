@@ -74,7 +74,7 @@ export function AnimatedLanding() {
             <motion.a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="hover:text-blue-400 transition-colors"
+              className="hover:text-blue-400 transition-colors text-zinc-50"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -115,7 +115,7 @@ export function AnimatedLanding() {
                   <SheetClose key={item} asChild>
                     <Link
                       href={`#${item.toLowerCase()}`}
-                      className="block py-2 text-center hover:text-blue-400 transition-colors"
+                      className="block py-2 text-center hover:text-blue-400 transition-colors text-zinc-50"
                     >
                       {item}
                     </Link>
