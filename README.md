@@ -1,5 +1,5 @@
 # CODEBORGES - Landing Page
----
+
 Este repositório contém o site da empresa CODEBORGES, focado em desenvolvimento de soluções tecnológicas. O objetivo principal deste projeto é apresentar uma landing page simples e eficaz para atrair novos clientes e captar leads qualificados.
 
 A página foi projetada com uma interface amigável e responsiva, destacando os serviços oferecidos pela CODEBORGES e proporcionando uma experiência de navegação intuitiva. Nossa missão é demonstrar a qualidade e a inovação em nossos serviços de desenvolvimento, visando facilitar o contato e a conversão de visitantes em potenciais clientes.
