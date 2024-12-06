@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/react"
+import GoogleAdsense from "@/components/google-adsense";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -37,6 +38,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <Toaster richColors />
+        <GoogleAdsense pId={process.env.NEXT_PUBLIC_ADSENSE_KEY as string} />
       </body>
     </html>
   );

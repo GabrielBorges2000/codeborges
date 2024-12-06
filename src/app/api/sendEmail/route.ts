@@ -19,8 +19,6 @@ export async function POST(req: Request) {
       },
     })
 
-
-
     return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json({ error: 'Erro ao enviar e-mail' }, { status: 500 });
