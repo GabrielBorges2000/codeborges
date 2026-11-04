@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import symbol from "@/assets/symbol.png.asset.json";
+import symbol from "@/assets/logo.png";
 import { nav, whatsappLink } from "@/content/site";
 
 export function Header() {
@@ -17,7 +17,7 @@ export function Header() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all ${scrolled ? "bg-background/80 backdrop-blur-xl border-b" : ""}`}>
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         <a href="#inicio" className="flex items-center gap-3" aria-label="CODEBORGES — início">
-          <img src={symbol.url} alt="" className="h-9 w-9 rounded-md" />
+          <img src={symbol} alt="" className="h-9 w-9 rounded-md" />
           <span className="h-5 w-px bg-border" />
           <span className="font-medium tracking-[0.18em] text-sm text-silver">CODEBORGES</span>
         </a>

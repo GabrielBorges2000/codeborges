@@ -1,6 +1,6 @@
 import { ArrowRight, ArrowUpRight, Check, FolderGit2 } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import symbol from "@/assets/symbol.png.asset.json";
+import symbol from "@/assets/logo.png";
 import { faq, principles, products, projects, services, steps, techs } from "@/content/site";
 
 function Eyebrow({ children }: { children: string }) {
@@ -60,8 +60,7 @@ export function Services() {
             </article>
           ))}
           <a href="#contato" className="group flex flex-col justify-between bg-background p-8 transition-colors hover:bg-surface">
-            <p className="font-mono text-sm text-muted-foreground">{"// seu_projeto.ts"}</p>
-            <div>
+            <div className="mt-auto">
               <h3 className="text-2xl font-medium">Tem um desafio diferente?</h3>
               <p className="mt-2 inline-flex items-center gap-2 text-silver">Vamos conversar <ArrowUpRight size={18} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></p>
             </div>
@@ -86,7 +85,7 @@ export function Products() {
             <div className="relative grid items-center gap-10 lg:grid-cols-[1.4fr_1fr]">
               <div>
                 <div className="flex items-center gap-3">
-                  <img src={symbol.url} alt="" className="h-10 w-10 rounded-lg border" />
+                  <img src={symbol} alt="" className="h-10 w-10 rounded-lg border" />
                   <span className="rounded-full border px-3 py-1 font-mono text-xs text-muted-foreground">
                     <span className="mr-2 inline-block h-1.5 w-1.5 rounded-full bg-silver animate-blink" />{p.status}
                   </span>
@@ -99,7 +98,8 @@ export function Products() {
               </div>
               <div className="rounded-2xl border bg-background/60 p-5 font-mono text-xs leading-7 text-muted-foreground">
                 <p className="text-foreground">{p.name.toLowerCase()}.modules</p>
-                <p>├─ eventos</p>
+                <p>├─ freelancers</p>
+                <p>├─ alocações</p>
                 <p>├─ equipes</p>
                 <p>├─ escalas</p>
                 <p>└─ gestão</p>

@@ -1,26 +1,51 @@
-# Code Borges Silver Signal
+# CODEBORGES - Landing Page
 
-quero reformular o meu site profissional para a empres começar a acompanhar a minha cara, esses são meus banner e logo em anexo com cor preta e prata, além disso quero deixar um siste com cara mais tecnológica semelhante a imagem que coloquei de exemplo com a hero, mas com as cores  visuais do meu site.
+Este repositório contém o site da empresa CODEBORGES, focado em desenvolvimento de soluções tecnológicas. O objetivo principal deste projeto é apresentar uma landing page simples e eficaz para atrair novos clientes e captar leads qualificados.
 
-pedi a uma AI gerar esse pront com base no meu site que já existe hoje que é o codeborges.com. ignore a paleta de cores que a AI colocou no pront em anexo e seja as cores do meu logo
+A página foi projetada com uma interface amigável e responsiva, destacando os serviços oferecidos pela CODEBORGES e proporcionando uma experiência de navegação intuitiva. Nossa missão é demonstrar a qualidade e a inovação em nossos serviços de desenvolvimento, visando facilitar o contato e a conversão de visitantes em potenciais clientes.
 
-This project was built with [Lovable](https://lovable.dev).
+[Visite a página]([https://codeborges.com/])
 
-## Build with Lovable
+## Tecnologias Utilizadas
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4ea88d8a-9a2c-4930-b605-9241dc894972).
+- **Vite:** Framework React para desenvolvimento web moderno e otimizado.
+- **TailwindCSS:** Framework de CSS utilitário para estilização rápida e responsiva.
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript:** Superset de JavaScript que adiciona tipagem estática ao código.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Funcionalidades
 
-## Development
+- Design responsivo para uma experiência perfeita em dispositivos móveis e desktops.
+- Navegação rápida e otimizada.
+- Estrutura de código modular e reutilizável.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Como Rodar o Projeto
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/GabrielBorges2000/codeborges.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd codeborges
+   ```
+3. Instale as dependências:
+   ```bash
+   pnpm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   pnpm dev
+   ```
+5. Abra o navegador e acesse:
+   ```
+   http://localhost:3000
+   ```
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com melhorias! Abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.

@@ -1,13 +1,13 @@
 import { ArrowRight, GitBranch, Lock, RotateCw, Plus } from "lucide-react";
-import banner from "@/assets/banner.png.asset.json";
-import symbol from "@/assets/symbol.png.asset.json";
+import banner from "@/assets/banner.png";
+import symbol from "@/assets/logo.png";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-screen overflow-hidden pt-28 pb-16">
       {/* background: banner lines + grid + spotlight */}
       <div className="absolute inset-0 -z-10">
-        <img src={banner.url} alt="" className="absolute inset-0 h-full w-full object-cover object-left opacity-40 [mask-image:linear-gradient(90deg,black_0%,black_35%,transparent_75%)]" />
+        <img src={banner} alt="" className="absolute inset-0 h-full w-full object-cover object-left opacity-40 [mask-image:linear-gradient(90deg,black_0%,black_35%,transparent_75%)]" />
         <div className="absolute inset-0 grid-bg [mask-image:radial-gradient(ellipse_at_70%_30%,black,transparent_70%)]" />
         <div className="absolute -top-40 right-[18%] h-[520px] w-[380px] glow-spot animate-beam" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-background to-transparent" />
@@ -16,7 +16,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-[1.1fr_1fr] lg:pt-12">
         <div className="animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full border bg-surface/70 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur">
-            <GitBranch size={14} className="text-silver" /> Software House · Sob medida & produtos próprios
+            <GitBranch size={14} className="text-silver" /> Software House
           </span>
           <h1 className="mt-8 text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
             <span className="block">Construímos</span>
@@ -84,11 +84,11 @@ function CodeVisual() {
         <br />{"}"}
       </div>
 
-      <div className="panel absolute -bottom-10 left-6 grid h-24 w-24 place-items-center rounded-2xl shadow-glow">
+      <div className="panel absolute -bottom-16 left-6 grid h-24 w-24 place-items-center rounded-2xl shadow-glow">
         <Lock className="text-silver" size={28} />
       </div>
 
-      <img src={symbol.url} alt="" className="absolute -top-10 -left-10 h-20 w-20 rounded-xl border opacity-90 animate-float [animation-delay:1s]" />
+      <img src={symbol} alt="" className="absolute -top-10 -left-10 h-20 w-20 rounded-xl border opacity-90 animate-float [animation-delay:1s]" />
     </div>
   );
 }
