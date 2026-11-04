@@ -73,8 +73,8 @@ export function Contact() {
               ))}
               <div>
                 <label htmlFor="mensagem" className="mb-2 block text-sm text-muted-foreground">Sobre o projeto</label>
-                <textarea id="mensagem" name="mensagem" rows={5} className={field} aria-invalid={!!errors.mensagem} />
-                {errors.mensagem && <p className="mt-1 text-sm text-destructive">{errors.mensagem}</p>}
+                <textarea id="mensagem" name="mensagem" rows={5} className={field} aria-invalid={!!errors["mensagem"]} />
+                {errors["mensagem"] && <p className="mt-1 text-sm text-destructive">{errors["mensagem"]}</p>}
               </div>
               {state === "error" && <p className="text-sm text-destructive">Não foi possível abrir o WhatsApp. Permita pop-ups ou use o botão ao lado.</p>}
               <button disabled={state === "loading"} className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary py-4 font-medium text-primary-foreground shadow-glow transition-opacity disabled:opacity-60">
