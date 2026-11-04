@@ -20,12 +20,12 @@ export function Hero() {
           </span>
           <h1 className="mt-8 text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
             <span className="block">Construímos</span>
-            <span className="block text-silver-gradient">tecnologia</span>
-            <span className="block">
-              <span className="font-mono font-light text-muted-foreground">{"{ "}</span>
-              <span className="text-silver-gradient">para transformar</span>
-              <span className="font-mono font-light text-muted-foreground">{" }"}</span>
+            <span className="block whitespace-nowrap">
+              <span className="font-mono font-light text-muted-foreground">{"{"}</span>
+              <span className="text-silver-gradient">tecnologia</span>
+              <span className="font-mono font-light text-muted-foreground">{"}"}</span>
             </span>
+            <span className="block">para transformar</span>
             <span className="block">negócios.</span>
           </h1>
           <p className="mt-8 max-w-xl text-lg text-muted-foreground">
